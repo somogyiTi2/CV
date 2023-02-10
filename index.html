@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bemutató</title>
+
+  <!--fül-->
+  <link rel="shortcut icon" href="img/ful.ico">
+  <!--fül-->
+  <!--betük-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Orbitron&display=swap" rel="stylesheet">
+
+  <!--betük-->
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!--bootstrap-->
+  <!--css-->
+  <!--A CSS-nek fontos, hogy itt a helye mert így feljebb van és felülírja a boostrap-et-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--css-->
+  <!--ikonok-->
+  <script src="https://kit.fontawesome.com/884f47de58.js" crossorigin="anonymous"></script>
+    <!--ikonok-->
+</head>
+
+<body>
+  <section id="title">
+    <!--section rész daraboláshoz-->
+
+    <!--contener-->
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <!--hambi menü-->
+      <!--brend szöveg-->
+      <!-- <a class="navbar-brand" href="#">Somogyi Tibor</a> -->
+      <!--brend szöveg-->
+      <!--ha a kódban a hambi fölé teszem akkor jobb old ha lentebb akkor balo-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--hambi menü-->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!--<div class="collapse navbar-collapse" id="navbarTogglerDemo02">HIBÁS ID-->
+        <!--bg background navbar-navgiációs sáv navbar-expand-változzon-md-medium méretnélabe-->
+        <!--ml-auto balra zárja a szöveget-->
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#program">Webfejlesztés</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#grafika">Grafika</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="#kapcsolat">Kapcsolat</a>
+
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!-- Nav Bar -->
+  <!--Bemutato-->
+  <section class="szinessz bemutatkozomagassag">
+    <div class="row">
+      <div class="col-lg-4 ">
+        <img class="profkep" src="img/1.jpg" alt="1kep">
+      </div>
+
+      <div class="col-lg-7 bemutatkozoszoveg">
+        <div class="row">
+          <h1 id="helloword"></h1>
+          <h5 id="elso"></h5>
+        </div>
+        <div class="row ">
+          <h1 id="name"></h1>
+          <h5 id="masodik"></h5>        
+         
+        </div>
+        <div id="beuszobemutatkozas" class="lathatatlan">
+        <h1>Profolió </h1>
+        <p>Üdv,</p>
+       
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Bemutato-->
+  <!--Kartya-->
+  <section id="kartya">
+    <div class="row cards">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./img/designer.png" alt="Avatar" class="flipcardImg">
+          </div>
+          <div class="flip-card-back" style="padding: 23% 13% 25% 11%">
+            <h1>Designer</h1>
+            <p class="kartyaContent">16 évse korom óta érdekel a grafika és egy ideig
+              dolgoztam nyomdai elökészítőben is.
+              lejjebb meg tudod nézni a grafikáimat.</p>
+            <p>Programok: Photoshop, Ilustrator</p>
+            <a href="#proba">⬇️</a>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./img/coding.png" alt="Avatar" class="flipcardImg">
+          </div>
+          <div class="flip-card-back" style="padding: 25% 22% 33% 20%;">
+            <h1>Webfejlesztés</h1>
+            <p>
+              A Gábor Dénes Főiskoán tanultam, mérnök informaikát és több web kurzust is végeztem.
+              Illetve több
+              munkahelyen is fejlesztettem weboldalakat.
+            <p><a href="#program">⬇️</a></p>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="./img/about_me.png" alt="Avatar" class="flipcardImg">
+          </div>
+          <div class="flip-card-back" style="padding: 26% 28% 33% 25%;">
+            <h1>About me</h1>
+            <p>
+              25 éves feltörekvő webfejlsző vagyok. 
+              A szertornész és gödeszkás hobbival.
+            </p>
+            <p><a href="#proba">⬇️</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Kartya-->
+  <!--Program-->
+  <section class="programozas" id="program">
+
+    <div class="row programcontent cukorasws" id="cukorasws" >
+      
+      <div class="col-lg-6 ">
+        <img src="img/online_cukrászda.gif" alt="1kep">
+      </div>
+
+      <div class="col-lg-5">
+        <h1>Saját React webalakalmazás</h1>
+          <p>Ez a legújabb fejlesztésem. Az oldal reactban készült.
+            Az elképzelés egy online webáruház amely mind a vásárloknak, mind a webáruház üzemeltetőjének kényelmes felülete nyújt.</p>
+            <p><a href="https://react-bemutato-cukraszda-webshop.vercel.app/">Megtekintem...</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row programcontent" id="react">
+      <div class="col-lg-7 bemutatkozoszoveg"  > 
+        <h1>Végzettség</h1>
+        <div>
+          A Gábor Dénes Főiskoán végezem. A <a  href="https://drive.google.com/file/d/10sd__T1ZamhxhcB5Va9Uaenbg1XP4gG1/view">szakdolgozatom<a> a webgrafika és webdizájnból írtam. 
+        Később egy <a href="https://www.udemy.com/certificate/UC-cb61b73c-5805-4d1a-a00f-e423b5681718/"> fullstack webfejlesztői kuzust </a> is végeztem,
+           jelneleg pedig egy <a href=>react fejlesztőit végzek.<a> A célom minőségi frontedek fejlsztése. </p>
+         <p> <a href="https://github.com/somogyiTi2/wikia-react">React munkáim Github<a></p>
+        <p> <a href="https://codesandbox.io/dashboard/recent?workspace=59e55609-b458-4200-9145-8847d49dcfb0">React munkáim codesandbox</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-5 ">
+        <img  src="img/react.gif" alt="1kep">
+      </div>
+    </div>
+    <div class="row programcontent cukorasws" id="boot" >
+      <div class="col-lg-6 ">
+        <img class="jsk kep2" src="img/html.jpg" alt="munkahelyek" id="jsk">
+        <img class="react kep2" src="img/react.gif" alt="munkahelyek" id="reactk">
+        <img class="sql kep2" src="img/sql.png" alt="munkahelyek" id="sqlk">
+        <img class="eszkozok kep2" src="img/eszkozok.gif " alt="munkahelyek" id="eszkozokk">
+        <img class="nodejs kep2" src="img/node.gif" alt="munkahelyek" id="nodejsk">
+        <img class="git kep2" src="img/git.png" alt="munkahelyek" id="gitk">
+      </div>
+
+      <div class="col-lg-5">
+         <h1>Tanult tecnológiák <em>Érj a leíráshoz</em></h1>
+         <p id="js">➡️Ismert internetes kódnyelevek: HTML5, CSS, JS</p>
+         <p id="reactl">➡️React.js, (REST API)</p>
+         <p id="sql">➡️Adatbázis: MySQL, NoSql(MongoDB)</p>
+         <p id="eszkozok">➡️Ismert eszközök: JQuery, DOM, Express, NPM,<br>  EJS , Bootsrap</p>
+         <p id="nodejs">➡️Ismert keretrendszerek: Node.js<p>
+         <p id="gitl">➡️Bash Command Line, Git, Github        
+          </p>
+          <a href="https://github.com/somogyiTi2">
+            <svg class="gitsvg" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 
+              5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 
+              4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+        </div>
+      </div>
+    </div>
+        <div class="row programcontent " id="node">
+          
+      <div class="col-lg-7 " >
+        <h1>Tapasztalat</h1>
+          
+          <h2>All You Can Move <em>2022.Szept-2022.Dec<em></h2>
+          
+          <p>HTML, CSS, Js, React <p>
+            <h2>Országos Meterolófiai Szolgálat (OMSZ)
+            <em>2022.Jun-2022.Aug<em></h2>
+            <p>HTML, CSS, PHP, MySQL, JQuery,Bootsrap <p>          
+            <h2>I-Code
+            <em>2018.Okt-2019.Ápr<em></h2>
+            <p>Linux, Word Press, PHP, Office, Adobe Photoshop <p>   
+           
+        
+      </div>
+
+      <div class="col-lg-5 ">
+        
+        <img class="kep2" src="img/e1.jpg" alt="munakely elotte">
+        <img class="hidden kep2" src="img/u1.jpg" alt="munkahelyek">
+      </div>
+    </div>
+    
+    
+  </section>
+  <!--Grafika-->
+<section id="Grafika">
+
+</section>
+  <!--Grafika-->
+
+  <!--JS-->
+  <script src="js/index.js" charset="utf-8">
+
+
+  </script>
+</body>
+
+</html>

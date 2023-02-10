@@ -1,0 +1,318 @@
+body {
+  margin: 0 40px;
+  background-color: #FCFEFE;
+}
+
+section {
+  margin: 0 16px;
+}
+
+/*Navigation Bar**/
+
+
+.navbar {
+  margin: 0px;
+  padding: 0px 0px 2.5rem;
+}
+
+.nav-item {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
+}
+
+.dropdown-item {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2rem;
+}
+
+
+
+.navbar-collapse {
+  flex-grow: 0.4;
+}
+
+nav {
+  background-color: rgb(63, 85, 132);
+}
+
+/*Navigation Bar**/
+/*Bemutatkozo*/
+#hellowordcontent{
+  margin-top:-1px;
+}
+#beuszobemutatkozas{
+  margin-left: -17px;
+  color:#FCFEFE;
+  background-color:rgba(101,119,156,0.7);
+  border-radius:30px;
+  padding:10px;
+}
+
+.lathatatlan{
+  opacity:0;
+}
+@keyframes codeanimationfel {
+	0% {
+    transform: translateY(4rem); 
+    opacity:0;
+	}
+	100% {
+    opacity:1;
+    transform: translateY(0rem); 
+
+	}}
+
+.anim-f {
+  animation: codeanimationfel 3s ;
+  }
+
+.bemutatkozomagassag {
+  height: 450px;
+}
+
+.bemutatkozoszoveg {
+  font-family: 'Comfortaa', cursive;
+  background-color: rgba(63, 85, 132, 0.6);
+  color: #65C7B9;
+  height: 30%;
+}
+
+.profkep {
+  margin-left: 30%;
+  height: 40%;
+  border-radius: 200px;
+}
+
+.flasshing {
+  width: 10px;
+  height: 50px;
+  background-color: #65C7B9;
+  animation-name: example;
+  animation-duration: 1s;
+  animation: example 1s infinite;
+}
+
+@keyframes example {
+  from {
+    background-color: #3F5584;
+  }
+
+  to {
+    background-color: #65C7B9;
+  }
+}
+
+.szinessz {
+  background-image: url('../img/wallpapper.jpg');
+  background-attachment: fixed;
+  border-radius: 0 0 200% 200%;
+}
+
+/*Bemutatkozo*/
+/*Kártya*/
+.cards {
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 2% 10%;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  padding: 33% 33% 33% 33%;
+  align-items: center;
+  background-color: #3F5584;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flipcardImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.kartyaContent {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;
+}
+
+/*Kártya*/
+/*Program*/
+#program {
+  background-image: url('../img/wallpapper.jpg');
+  background-attachment: fixed;
+  border-radius: 80px;
+  padding: 10px;
+}
+
+.programcontent {
+  margin: 2% 5%;
+  background-color: rgba(63, 85, 132, 0.6);
+  border-radius: 90px;
+  height: 350px;
+}
+
+@keyframes codeanimationjobb {
+	0% {
+    transform: translateX(-4rem); 
+    opacity:0;
+	}
+	100% {
+    opacity:1;
+    transform: translateX(0rem); 
+
+	}
+}
+@keyframes codeanimationbal {
+	0% {
+    transform: translateX(4rem); 
+    opacity:0;
+	}
+	100% {
+    opacity:1;
+    transform: translateX(0rem); 
+
+	}
+}
+
+
+.anim-j {
+/*@keyframes működése: 
+@keyframe NEVE {
+  0%{ kezdeti stádium }
+  50%{végsádium}
+}
+másik objektumba 
+animtaion: NEVE sebessége  hányszor(infinit(végtelenitve))*/ 
+  animation: codeanimationjobb 3s ;
+}
+
+.anim-b {
+animation: codeanimationbal 3s ;
+}
+
+.programcontent img {
+  height: 300px;
+  border-radius: 40px;
+  width: 600px;
+}
+
+.programcontent h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 2rem;
+  color:#65C7B9;
+}
+
+.programcontent h2 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.5rem;
+  color:#65C7B9;
+}
+
+
+.programcontent p {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;
+  color:#65C7B9;
+}
+.programcontent a{
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;name
+  color:#FCFEFE;
+}
+.programcontent em{
+  font-size: 0.9rem;
+}
+
+.lastpc{
+  background-image: url('../img/bootsrap.jpg');
+  background-attachment: fixed;
+  background-size: 800px ;
+  border-radius:30px;
+
+}
+.makehidden{
+  opacity:0;
+}
+
+.hidden:hover{
+  opacity:0;
+}
+
+.name{
+  opacity:0;
+}
+
+.kep2{
+  position: absolute;
+  margin-top: 0px;
+}
+
+#node{
+  height:40%;
+}
+
+.gitsvg{
+  fill:  #65C7B9;
+}
+.gitsvg:hover{
+  fill: #FCFEFE;
+}
+
+
+/*Program*/
+
+
+
+PALETTA {
+  background-color: #65C7B9;
+  background-color: #3F5584 rgba(63, 85, 132, 1);
+  background-color: #65779c rgba(101,119,156,1);
+  background-color: #FCFEFE;
+  background-color: #C50B91 rgba(197, 11, 145, 1);
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Orbitron', sans-serif;
+}
