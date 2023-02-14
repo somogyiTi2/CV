@@ -4,7 +4,7 @@ const hellowordData = "Hello world";
 var i = 0;
 var hwdb = hellowordData.length + 1;
 
-const name = "A nevem Somogyi Tibor...";
+const name = "My name is Tibor Somogyi...";
 var namei = 0;
 var ndb = name.length;
 

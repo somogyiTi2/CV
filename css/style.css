@@ -9,13 +9,18 @@ section {
 
 svg {
   fill: #65C7B9;
-  margin:0 10px;
+  margin: 0 10px;
 }
+
 svg:hover {
   fill: #FCFEFE;
 }
+
 /*Navigation Bar**/
 
+#bemutato {
+  margin-top: -1px;
+}
 
 .navbar {
   margin: 0px;
@@ -191,6 +196,18 @@ nav {
   font-size: 1rem;
 }
 
+#designer_card {
+  padding: 23% 13% 25% 11%
+}
+
+#webfejelsztes_card {
+  padding: 25% 22% 33% 20%;
+}
+
+#about_me_card {
+  padding: 26% 28% 33% 25%;
+}
+
 /*Kártya*/
 /*Program*/
 #program {
@@ -199,6 +216,10 @@ nav {
   background-color: #3F5584;
   border-radius: 80px;
   padding: 10px;
+}
+
+.never {
+  display: none;
 }
 
 .programcontent {
@@ -343,7 +364,7 @@ animtaion: NEVE sebessége  hányszor(infinit(végtelenitve))*/
   border-radius: 30px;
 }
 
-.nyagykepek{
+.nyagykepek {
   display: flex;
   justify-content: center;
 }
@@ -362,18 +383,19 @@ animtaion: NEVE sebessége  hányszor(infinit(végtelenitve))*/
   margin-top: 0px;
 }
 
-#grafika h1{
-  margin-left:90px;
+#grafika h1 {
+  margin-left: 90px;
   font-family: 'Comfortaa', cursive;
   font-size: 2rem;
   color: #65C7B9;
 }
-#grafika h2{
-  margin-left:90px;
+
+#grafika h2 {
+  margin-left: 90px;
 }
 
-#grafika p{
-  margin-left:90px;
+#grafika p {
+  margin-left: 90px;
   font-family: 'Comfortaa', cursive;
   font-size: 1rem;
   color: #65C7B9;
@@ -381,21 +403,324 @@ animtaion: NEVE sebessége  hányszor(infinit(végtelenitve))*/
 
 /*Grafika*/
 /*  About_me*/
-#about_me{
-  padding:20px 20px;
+#about_me {
+  padding: 20px 20px;
   background-color: #3F5584;
-  border-radius: 30px 0 ;
+  border-radius: 30px 30px 0 0;
 }
-.profkep2{
+.link{
+  color: #FCFEFE;
+}
+.link:hover{
+  color: #FCFEFE;
+}
+.profkep2 {
   border-radius: 30px;
 }
-#about_me a{
+.aboutlink{
+  color: #65C7B9;
+  font-size: 2rem;
+}
+.aboutlink:hover{
+  color: #FCFEFE;
+}
+
+.secretmail {
   color: #3F5584;
 }
-#about_me a:hover{
+
+.secretmail:hover {
   color: #65C7B9;
 }
+
+.about_metext {
+  font-family: 'Comfortaa', cursive;
+  background-color: rgba(63, 85, 132, 0.6);
+  color: #65C7B9;
+  height: 30%;
+}
+
+
 /*  About_me*/
+
+
+/*méretke*/
+@media screen and (max-width: 1440px) {
+  #bemutato {
+    margin-top: -1px;
+  }
+
+  .profkep {
+    margin-left: 10%;
+  }
+
+  section {
+    margin: 0 -2%;
+    /* background-color: red; */
+  }
+
+  .flip-card {
+    padding: 5px;
+  }
+
+  .programcontent {
+    padding-right: 40px;
+  }
+
+  .kiskepek {
+    padding: 0 20%;
+  }
+
+  .about_metext {
+    margin-left: 85px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 0 -80% 0 5%;
+
+  }
+}
+
+@media (max-width: 768px) {
+
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    margin-left: 50%;
+  }
+
+  .bemutatkozomagassag {
+    height: 50%;
+  }
+
+  .profkep {
+    margin-left: 40%;
+  }
+
+  .bemutatkozoszoveg {
+    margin: -35% 16%;
+  }
+
+  .never {
+    display: block;
+  }
+
+  .innever {
+    display: none;
+  }
+
+
+  #cukorasws {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #cukorasws p {
+    padding: 0% 30%;
+  }
+
+  #react {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #react {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #react p {
+    padding: 0% 30%;
+  }
+
+  #boot {
+    height: 1033px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #boot img {
+    margin-left: -25%;
+  }
+
+  #node {
+    height: auto;
+    text-align: center;
+    padding: 30px;
+  }
+
+  #node img {
+    margin: -50% 0 0px 40%;
+  }
+
+  #grafika {
+    text-align: center
+  }
+
+  #about_me {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .secretmail {
+    color: #65C7B9;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    margin: 0 -193% 0 5%;
+  }
+
+  .cards {
+    display: -webkit-box;
+    margin: 0% 20%;
+  }
+
+  .flip-card {
+    width: 800px;
+    height: 800px;
+  }
+
+  .flip-card p {
+    font-size: 3rem;
+    padding: 0%;
+  }
+
+  .flip-card a {
+    font-size: 3rem;
+  }
+
+  #cukorasws p {
+    padding: 0;
+  }
+
+  #react p {
+    padding: 0;
+  }
+
+  #boot {
+    height: 1600px;
+  }
+
+  #boot p {
+    padding: 0;
+  }
+
+  #node p {
+    padding: 0;
+  }
+
+  #node img {
+    margin: -80% 0 0px 55%;
+  }
+
+  #program h1 {
+    font-size: 3.5rem;
+  }
+
+  #program p {
+    font-size: 3rem;
+  }
+
+  #program em {
+    font-size: 2rem;
+  }
+
+  #program a {
+    font-size: 3rem;
+  }
+
+  #grafika h1 {
+    font-size: 3.5rem;
+  }
+
+  #grafika em {
+    font-size: 2rem;
+  }
+
+  #grafika p {
+    font-size: 3rem;
+  }
+
+  #about_me h1 {
+    font-size: 3.5rem;
+  }
+
+  #about_me p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin: 0 -146% 0 5%;
+
+  }
+
+  .profkep {
+    margin-left: 30%;
+  }
+
+  .bemutatkozoszoveg {
+    margin: -62% 16%;
+  }
+
+  .cards {
+    display: -webkit-box;
+    margin: 0% 20%;
+  }
+
+  .flip-card {
+    width: 500px;
+    height: 500px;
+  }
+
+  .flip-card-back {
+    margin: 0px;
+  }
+
+  .flip-card p {
+    font-size: 1.5em;
+    padding: 0%;
+  }
+
+  .flip-card a {
+    font-size: 1.5rem;
+  }
+
+  #cukorasws p {
+    padding: 0;
+  }
+
+  #react p {
+    padding: 0;
+  }
+
+  #boot {
+    height: 2100px;
+  }
+
+  #boot img {
+    margin-left: -50%;
+  }
+
+  #node img {
+    margin: -110% 0 0px 10%;
+  }
+}
+/*ENGLISH*/
+#webfejelsztes_cardeng{
+  padding: 10% 22% 33% 20%;
+}
 
 PALETTA {
   background-color: #65C7B9;
